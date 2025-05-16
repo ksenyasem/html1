@@ -1,0 +1,23 @@
+[for=red]{
+    color: red;
+}
+[for=blue]{
+    color: blue;
+}
+[for=green]{
+    color: green;
+}
+
+#red{
+    accent-color: red; 
+}
+#green{
+    accent-color: green;
+}
+#blue{
+    accent-color: blue;
+}
+fieldset{
+    width: 150px;
+    height: 87px;
+}

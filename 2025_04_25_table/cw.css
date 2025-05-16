@@ -1,0 +1,36 @@
+table{
+    border: 4px;
+    border-color: black;
+    width: 700px;
+    height: 500px;
+    border-style: groove;
+}
+td {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+#topleft1{
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(15, 117, 46);
+    background-color: aquamarine;
+}
+.sky{
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(15, 117, 46);
+    background-color: rgb(22, 33, 138);
+}
+#midleft1{
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(15, 117, 46);
+    background-color: rgb(182, 228, 74);
+}
+#ground{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(15, 117, 46);
+    background-color: rgb(236, 173, 231);
+}
