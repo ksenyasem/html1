@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top academy</title>
+    <link rel="stylesheet" href="hw.css">
+</head>
+<body>
+    <h1>Компьютерная академия ТОП в Москве</h1>
+    <img src='img/top.jpg' wight="400px" height="300px">
+    <tr>
+        <td><h2>Доступные курсы:</h2></td>
+            <ul>
+                <li><td><label for="answer1">Разработка на Python</label></td></li>
+                <li><td><label for="answer2">1C программирование</label></td></li>
+                <li><td><label for="answer3">Искусственный интеллект</label></td></li>
+            </ul>
+    </tr>
+    <h2>Подробная информация о курсах</h2>
+    <table>
+        <tr>
+            <td><h4>Во сколько?</h4></td>
+            <td><h4>Какие дни?</h4></td>
+            <td><h4>Сколько стоит?</h4></td>
+        </tr>
+        <tr>
+            <td><p>19:30-22:20</p></td>
+            <td><p>2 раза в неделю по ср и пт</p></td>
+            <td><p>19.900р/месяц</p></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td><h3>Разработка на Python</h3></td>
+            <td><p>Обучение в малокомплектных группах, на всех занятиях присутствует преподаватель
+                Уроки включают в себя теорию, примеры решения задач, домашние задания, интерактивные видео и другие материалы.
+            Курс даёт возможность изучить новый язык программирования и начать работать над новыми проектами ещё во время обучения.</p></td>
+        </tr>
+        <tr>
+            <td><h3>1C программирование</h3></td>
+            <td><p>Программа соответствует стандартам компании 1С.Курс подойдет даже для тех, кто не имеет навыков программирования.</p></td>
+        </tr>
+        <tr>
+            <td><h3>Искусственный интеллект</h3></td>
+            <td><p>Изучаем требования рынка вакансий и постоянно обновляем программу.80% практических занятий. Только так можно усвоить новые знания.Программа обучения разработана выпускником Гарвардского университета направления «Машинное обучение».Научим работать с нейросетями в условиях санкций.</p></td>
+        </tr>
+    </table>
+    <h2>Для записи на курс:</h2>
+    <table>
+        <tr>
+            <td>ФИО</td>
+            <td><input type='text'placeholder='ФИО'></td>
+        </tr>
+        <tr>
+            <td>Дата рождения</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Номер телефона</td>
+            <td><input type="number" placeholder='+X (XXX) XX-XX-XX'> </td>
+        </tr>
+        <TR>
+            <td>Формат занятий</td>
+            <td><label for="answer1">Онлайн</label>
+                <input id="answer1" type="radio" name="radiobtn">
+                <label for="answer1">Офлайн</label>
+                <input id="answer1" type="radio" name="radiobtn">
+        </tr>
+            </td>
+            <tr>
+                <th colspan='2'>Я согласен с правилами академии<input type="checkbox"></th>
+            </tr>
+            <tr>
+                <th colspan='2'><input type="button"value="Записаться"></th>
+            </tr>
+    </table>
+
+</body>
+</html>
