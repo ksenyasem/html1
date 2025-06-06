@@ -1,0 +1,16 @@
+table{
+    border: 1.2px;
+    border-color: black;
+    border-style: solid;
+    width: 300px;
+    height: 1000px;
+}
+ol{
+    color: rgb(221, 221, 238);
+}
+td{
+    
+    background-color: black;
+}
+
+
