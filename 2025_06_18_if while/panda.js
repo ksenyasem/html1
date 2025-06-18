@@ -10,4 +10,3 @@ function add_kid() {
   console.log(dannie)
  li.textContent = dannie
 }
-
